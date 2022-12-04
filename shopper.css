@@ -1,18 +1,79 @@
 body{
     background: #F5F5F5;
 }
-span{
-    color: limegreen;
+.top-page{
+    display: flex;
+    width: auto;
+    height: 100px;
 }
-.nameShop{
-    margin-top: 63px;
-    margin-left: 85px;
-    margin-bottom: 4966px;
-    margin-right: 1183px;
+div[h2]{
+    position:;
+    width: 172px;
+    height: 49px;
+    left: 85px;
+    top: 63px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
 }
-.searchButton{
-    /*margin-top: 77.75px;*/
-    /*margin-left: 772.75px;*/
-    /*margin-bottom: 4982.75px;*/
-    /*margin-right: 649.75px;*/
+#search-box {
+    position: relative;
+    width: 322px;
+    height: 63px;
+    left: auto;
+    top: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(46, 131, 158, 0.07);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.search-img-2{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 380px;
+    top: 18px;
+
+    background: #10B981;
+    border-radius: 5px;
+}
+.bucket-button{
+    margin-left: 18px;
+    width: 229px;
+    height: 60px;
+    border: 1px solid #10B981;
+    filter: drop-shadow(0px 10px 35px rgba(0, 0, 0, 0.1));
+    border-radius: 30px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.bucket-icon{
+    margin-right: 75%;
+    margin-top: -33px;
+    margin-bottom: 42px;
+}
+.log-in{
+    margin-left: 18px;
+    width: 247px;
+    height: 60px;
+    background: #10B981;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+}
+.login-icon{
+    margin-right: 75%;
+    margin-top: -22px;
+    margin-bottom: 42px;
+    padding-right: 10px;
+    width: 15.5px;
+    height: 20.5px;
+    left: 4.25px;
+    top: 1.25px;
+
 }

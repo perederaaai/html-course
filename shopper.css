@@ -4,16 +4,14 @@ body{
 .top-page{
     display: flex;
     width: auto;
-    height: 100px;
+    height: 80px;
+    margin-top: 3%;
+    padding-left: 5%;
 }
 div[h2]{
-    position:;
     width: 172px;
     height: 49px;
-    left: 85px;
-    top: 63px;
-    font-family: 'Montserrat';
-    font-style: italic;
+    font-family:;
     font-weight: 400;
     font-size: 40px;
     line-height: 49px;
@@ -33,8 +31,8 @@ div[h2]{
     position: absolute;
     width: 38px;
     height: 38px;
-    left: 380px;
-    top: 18px;
+    left: 31%;
+    top: 19%;
 
     background: #10B981;
     border-radius: 5px;
@@ -75,5 +73,12 @@ div[h2]{
     height: 20.5px;
     left: 4.25px;
     top: 1.25px;
-
+}
+.green-menu{
+    position: absolute;
+    width: 1440px;
+    height: 81px;
+    left: 0px;
+    top: 182px;
+    background: #10B981;
 }
